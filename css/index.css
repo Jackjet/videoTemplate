@@ -1,0 +1,68 @@
+header{
+    border: 1px solid #ddd;
+}
+header .nav-list{
+    border: none;
+}
+header .userPanel{
+    line-height: 36px;
+}
+header .logo{
+    height: 42px;
+    width: 101px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-image: url("../img/logo.png");
+}
+header .searchForm{
+    margin-top: 3px;
+}
+header .userPanel .login, header .userPanel .register,header .userPanel .lqVip{
+    padding: 0px;
+}
+.contentLeft .tips{
+    margin-bottom: 0px;
+}
+.dataList .header .tuijian{
+    border: none;
+}
+.dataList .header{
+    border: 1px solid #ddd;
+}
+.dataList .tuijian li a{
+    padding: 8px 5px;
+    text-decoration: underline;
+}
+.dataList .body .shipin{
+    padding: 0;
+}
+.contentRight .panel-header .header, .contentRight .panel-header .body{
+    margin: 0px;
+}
+.contentRight .bs-callout {
+    padding: 2px;
+    margin: 2px 0;
+    border: 1px solid #eee;
+    border-left-width: 5px;
+    border-radius: 3px;
+}
+.contentRight .bs-callout-info {
+    border-left-color: #1b809e;
+}
+
+
+footer{
+    margin-bottom: 48px;
+    margin-top: 15px;
+}
+.footerHref ul{
+    text-align: center;
+    list-style: none;
+}
+.footerHref ul li{
+    display: inline-block;
+}
+.footerHref ul li a{
+    padding: 3px 13px;
+    margin: 10px 2px;
+}

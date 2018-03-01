@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=0">
+    <title>详情-播放</title>
+    <link rel="stylesheet" href="//g.alicdn.com/msui/sm/0.6.2/css/sm.css">
+    <script type='text/javascript' src='//g.alicdn.com/sj/lib/zepto/zepto.js' charset='utf-8'></script>
+    <script type='text/javascript' src='//g.alicdn.com/msui/sm/0.6.2/js/sm.js' charset='utf-8'></script>
+    <link rel="stylesheet" href="//g.alicdn.com/msui/sm/0.6.2/css/sm-extend.css">
+    <script type='text/javascript' src='//g.alicdn.com/msui/sm/0.6.2/js/sm-extend.js' charset='utf-8'></script>
+    <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+        var jquery = jQuery.noConflict(true);
+        jquery(function () {
+            jquery('.nav_more').click(function (e) {
+                e.preventDefault();
+                var navHeightVal = 2,
+                    siteNav = jquery('.site_nav'),
+                    navRow = jquery('.nav_row');
+                if(siteNav.hasClass('open')){
+                    siteNav.removeClass('open');
+                    navRow.css('height', navRow.height()/navHeightVal);
+                }else{
+                    siteNav.addClass('open');
+                    navRow.css('height', navRow.height()*navHeightVal);
+                }
+            });
+        });
+    </script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<section class="content">
+    <header>
+        <section class="row">
+            <section class="col-50">
+                <a href="index.html"><div class="logo"></div></a>
+            </section>
+            <section class="col-50">
+                <section class="searchbar">
+                    <a class="searchbar-cancel">取消</a>
+                    <section class="search-input">
+                        <label class="icon icon-search" for="search"></label>
+                        <input type="search" id='search' placeholder='输入关键字...'/>
+                    </section>
+                </section>
+            </section>
+        </section>
+        <section class="row">
+            <section class="col-100">
+                <section class="site_nav">
+                    <section class="nav_row">
+                        <a class="nav_link" href="category.html">分类</a>
+                        <a class="nav_link" href="category.html">分类</a>
+                        <a class="nav_link" href="category.html">分类</a>
+                        <a class="nav_link" href="category.html">分类</a>
+                        <a class="nav_link" href="category.html">分类</a>
+                        <a class="nav_link" href="category.html">分类</a>
+                        <a class="nav_link" href="category.html">分类</a>
+                        <a class="nav_link" href="category.html">分类</a>
+                        <a class="nav_link" href="category.html">分类</a>
+                    </section>
+                    <a class="nav_more"></a>
+                </section>
+            </section>
+        </section>
+    </header>
+    <div class="row">
+        <section class="txp_player">
+            <section class="txp_video_container">
+                <video style="background-color:#000;width:100%;height:100%" src="https://apd-1a1b9aca326dc3e80b5c0129575509c2.v.smtcdns.com/vlive.qqvideo.tc.qq.com/ANv6iLw0GObvYYfLkC5mPRNAITREwwwsFhRSo1OKORgM/r0019z1dctq.mp4?sdtfrom=v1103&amp;guid=f42bf1a0f6ece861855c1087ebdeb136&amp;vkey=EF2DDAC8E7446FA4CEA77BC5D94A715BE9512DFA5A7A909A159521C159ECCE75500F8180664E93E02147FE4B9DD56370FBF8F480A37607E5F4E9B9FF0A4B18FFE2632F206AC04E88EB8184CA6D09797DF0D39A09E8573567F45EF3152A7508AE3647323DF2F9DC27D76A9DAF4440DF6CEBF274AD33BABF2E&amp;platform=2"></video>
+                <section class="txp_shadow"></section>
+            </section>
+        </section>
+        <section id="j-introduction" class="column introduction_box playCard">
+            <div class="column_box animate1">
+                <dl class="intro_cnt j-introCnt j-height" style="height: 50px;">
+                    <dt>
+                        <h2>新版哆啦A梦</h2>
+                    </dt>
+                    <dd>
+                        <i>播放：</i>
+                        <p>1.8 亿次</p>
+                        <em></em>
+                        <i>9.6分</i>
+                        <em></em>
+                        <a class="folder j-fold ani_roate1" href="javascript:;">
+                            <span>详情</span>
+                            <i class="play_icon icon_downarr"></i>
+                        </a>
+                    </dd>
+                    <dd class="j-barrageNum">
+                        <i>弹幕：</i>
+                        <p>5.9 万条</p>
+                    </dd>
+                    <dd>
+                        <i>类型：</i>
+                        <p>搞笑，轻松，益智，科幻</p>
+                    </dd>
+                    <dd>
+                        <i>地区：</i>
+                        <p>日本</p>
+                    </dd>
+                    <dd>
+                        <i>年份：</i>
+                        <p>2005</p>
+                    </dd>
+                    <dd>
+                        <i>适合年龄段：</i>
+                        <p>13岁以上,6-12岁</p>
+                    </dd>
+                    <dd class="dd1 desc">
+                        <i data-key="intro_yp">影片简介：</i>
+                        <p>哆啦A梦是一只来自未来世界的猫型机器人，用自己神奇的百宝袋和各种奇妙的道具帮助大雄解决各种困难。哆啦A梦的故事将人们带进一个奇妙、充满想像力的世界。日本方面要将哆啦A梦继续薪火相传，于是在2005年4月开展了全新的动画。担演哆啦A梦的声优为水田山癸，故本系列称之为“水田版”。新系列以回归原点为卖点，重新将原著故事动画化。人物和场景设定上亦贴近漫画原著。</p>
+                    </dd>
+                </dl>
+            </div>
+        </section>
+    </div>
+</section>
+</body>
+</html>
